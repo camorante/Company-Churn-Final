@@ -120,7 +120,7 @@ The ternure is another case in which the oldest customers are the most likely to
 
 SoldVehicleCancelCount is a feature to be taken into account because when customers sell their vehicles the service of those GPS units is impossible to recover since the service becomes practically useless.
 
-### Features Analysis
+### Data Exploratory and Features Analysis
 
 #### Churn Count By Industry
 
