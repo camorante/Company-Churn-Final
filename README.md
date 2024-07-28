@@ -68,6 +68,7 @@ The following notebook contains all the development of the analysis carried out.
 
 Industry and Countrycode have nulls which we will impute in order to fill these null values.
 
+
 ![](images/fig1.png)
 
 #### Correlations and Imbalance: ####
@@ -77,6 +78,8 @@ The dataset has some imbalance but it is possible to correct it later with overs
 ![](images/fig2.png)
 
 Some features(SLAPercentageMean, TicketsClosedCount, SLAPercentageTotal, SLATimeUsedMean, RMAUnitsCount, NonCompliantSLACount ) with a correlation = 1 were removed
+
+ChurnPerc is removed as it is a target value also in case of regression and not a classification.
 
 #### Duplicates: ####
 
