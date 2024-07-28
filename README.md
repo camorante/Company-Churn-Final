@@ -10,13 +10,13 @@ The data I am using is obtained directly from the CRM application that the compa
 
 The data can be found in this link
 
-[FullChurn.csv](https://github.com/camorante/Company-Churn/tree/main/data/FullChurn.csv)
+[FullChurn.csv](https://github.com/camorante/Company-Churn-Final/blob/main/data/FullChurn.csv)
 
 ### Notebook Link ###
 
 The following notebook contains all the development of the analysis carried out.
 
-[Capstone.ipynb](https://github.com/camorante/Company-Churn/blob/main/Capstone.ipynb)
+[Capstone.ipynb](https://github.com/camorante/Company-Churn-Final/blob/main/Capstone.ipynb)
 
 ### The techniques and Analysis ###
 
@@ -78,7 +78,11 @@ The dataset has some imbalance but it is possible to correct it later with overs
 
 Some features(SLAPercentageMean, TicketsClosedCount, SLAPercentageTotal, SLATimeUsedMean, RMAUnitsCount, NonCompliantSLACount ) with a correlation = 1 were removed
 
-![](images/fig3.png)
+#### Duplicates: ####
+
+![](images/fig2b.png)
+
+There is very little duplicate data (1.89%) so there is no need to remove it.
 
 ### Models ###
 
@@ -155,13 +159,6 @@ Cancellations due to cost and service prices are quite high when the client is i
 ![](images/fig12.png)
 
 ### Findings ###
-
-* El modelo que mejor desempeno tuvo fue Random Forest ya que fue rapido de entrenar y tuvo un score bastante aceptable para entornos de produccion
-* Las redes neuronales no son las mas idoneas de usar en este caso, ya que son mas complejas de entrenar y requieres una gran cantidad de datos para su entrenamiento
-* La permanencia es una caracteristica importante, entre mas antiguo es un cliente mas posibilidades de cancelar servicio
-* La politica de RMA(return to manufacturer) y garantias es muy importante ya que es una estrategia aceptable para retener clientes.
-* Hay que tener mucha precaucion con los clientes que tienen saldos atrasados ya que es bastante probable que cancelen contrato, es necesario aplicar medidas para mejorar el plan de pagos de estos clientes
-* El precio es una caracteristica a tener en cuenta ya que los clientes tienden a cancelar contrato cuando el precio es mas alto de lo necesario
 
 * The best performing model was Random Forest as it was fast to train and had a fairly acceptable score for production environments.
 * Neural networks are not the most suitable to use in this case, since they are more complex to train and require a large amount of data for training.
