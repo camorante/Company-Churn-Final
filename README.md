@@ -79,7 +79,7 @@ The dataset has some imbalance but it is possible to correct it later with overs
 
 Some features(SLAPercentageMean, TicketsClosedCount, SLAPercentageTotal, SLATimeUsedMean, RMAUnitsCount, NonCompliantSLACount ) with a correlation = 1 were removed
 
-ChurnPerc is removed as it is a target value also in case of regression and not a classification.
+ChurnPerc is removed as it is a target value as well, it would only be used in case of regression and not classification.
 
 #### Duplicates: ####
 
@@ -175,5 +175,20 @@ Cancellations due to cost and service prices are quite high when the client is i
 * It is necessary to continue improving the dataset with fresh and quality information as it arrives, as it is a process that must continue over time to improve the models.
 * Conduct customer satisfaction surveys to capture their perception of the service and use this data to improve the model.
 
-
+### References ###
  
+1. Neural networks
+	- [Automatic Neural Network Hyperparameter Tuning for TensorFlow(https://www.youtube.com/watch?v=6Nf1x7qThR8&list=PL_dIG47tFc1dECePR7yyvAGv7pM0iqlDX&index=32)
+	- [Introduction to the Keras Tuner](https://www.tensorflow.org/tutorials/keras/keras_tuner)
+	
+2. Oversampling
+	- [SMOTE and Other Options: A Comprehensive Guide to Handling Imbalanced Data](https://towardsdatascience.com/use-smote-with-caution-3fa015ba3bc5)
+	- [Oversampling — Handling Imbalanced Data](https://medium.com/@abdallahashraf90x/oversampling-for-better-machine-learning-with-imbalanced-data-68f9b5ac2696)
+	
+3. Hyperparameter Tuning
+	- [Hyper-parameter tuning with Pipelines](https://medium.com/@kocur4d/hyper-parameter-tuning-with-pipelines-5310aff069d6)
+	
+4. Classification Models
+	- [The Kernel Trick in Support Vector Classification](https://towardsdatascience.com/the-kernel-trick-c98cdbcaeb3f)
+	- [Cost-Complexity Pruning](http://mlwiki.org/index.php/Cost-Complexity_Pruning)
+	- [Complete Guide to Understanding Precision and Recall Curves](https://analyticsindiamag.com/developers-corner/complete-guide-to-understanding-precision-and-recall-curves/)
