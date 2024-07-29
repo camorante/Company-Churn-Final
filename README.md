@@ -1,7 +1,5 @@
 # Capstone Company-Churn
 
-![](images/logo.png)
-
 ### Business Understanding: ###
 
 How can I predict whether or not a customer will cancel the service offered in the company where I work (I work in a geolocation services company)?
