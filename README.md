@@ -1,5 +1,7 @@
 # Capstone Company-Churn
 
+![](images/logo.png)
+
 ### Business Understanding: ###
 
 How can I predict whether or not a customer will cancel the service offered in the company where I work (I work in a geolocation services company)?
@@ -178,7 +180,7 @@ Cancellations due to cost and service prices are quite high when the client is i
 ### References ###
  
 1. Neural networks
-	- [Automatic Neural Network Hyperparameter Tuning for TensorFlow(https://www.youtube.com/watch?v=6Nf1x7qThR8&list=PL_dIG47tFc1dECePR7yyvAGv7pM0iqlDX&index=32)
+	- [Automatic Neural Network Hyperparameter Tuning for TensorFlow](https://www.youtube.com/watch?v=6Nf1x7qThR8&list=PL_dIG47tFc1dECePR7yyvAGv7pM0iqlDX&index=32)
 	- [Introduction to the Keras Tuner](https://www.tensorflow.org/tutorials/keras/keras_tuner)
 	
 2. Oversampling
