@@ -26,7 +26,7 @@ The following notebook contains all the development of the analysis carried out.
 
 3 Train classification model as baseline to have a point of comparison.
 
-4 Train KNN, Logistic regression, Decision Tree, SGDClassifier, SVM, Neural Network and Ensemble models in search of the best one. Oversampling techniques will be used (SMOTE, ADASYN) and neural networks will not be used since the number of records is not very large.
+4 Train KNN, Logistic regression, Decision Tree, SGDClassifier, SVM, Neural Network(for testing and comparison purposes only) and Ensemble models in search of the best one. Oversampling ADASYN techniques will be used.
 
 5 Once the model has been found, debugged and improved a version 1.0 will be deployed in production for use by the customer service area.
 
@@ -89,7 +89,7 @@ There is very little duplicate data (1.89%) so there is no need to remove it.
 
 ### Models ###
 
-For the training I used 4 different models in order to find the most optimal one (A dummy classifier will be used as a baseline reference model):
+For the training I used 9 different models in order to find the most optimal one (A dummy classifier will be used as a baseline reference model):
 
 * Logistic Regression
 * KNN
@@ -105,9 +105,9 @@ I am also using oversampling(adasyn or smote) and GridSearchCV as cross validati
 
 ### Model Evaluation ###
 
-As we can see AdaBoost Classifier and Gradient Boosting Classifier are the best scoring models among the others, but they have a big problem, they are in overfitting which I dismissed them as good predictors to use in the production environment. Random Forest Classifier is a clear candidate to be released in production as it is fast to train and has a good score, SVM is discarded as it has too long training times.
+As we can see AdaBoost Classifier and Gradient Boosting Classifier are the best scoring models among the others, but they have a big problem, they are in overfitting which I dismissed them as good predictors to use in the production environment. Random Forest Classifier is a clear candidate to be released in production as it is fast to train and has a good score, SVM has a good F1 score but is discarded as it has too long training times.
 
-The use of neural networks is discarded since these networks need a larger amount of data to perform well than what we have available at the moment.
+The use of neural networks is discarded since these networks need a larger amount of data to perform well than what we have available at the moment and were modeled only for the purpose of testing and comparison.
 
 ![](images/fig4.png)
 
