@@ -1,20 +1,20 @@
 # Capstone Company-Churn
 
-### Business Understanding: ###
+### Business Understanding ###
 
 A company that offers GPS services understands that its business is focused on providing accurate and reliable tracking and tracing solutions. It needs to recognize the importance of safety, operational efficiency and convenience for its customers, covering various sectors such as transportation, logistics, agriculture, health and sports.
 
 Customers are the main means of subsistence and the reason for the company's existence, therefore it is necessary to respond to the following:
 
-#### Research Question: ####
+#### Research Question ####
 
 How can I predict whether or not a customer will cancel the service offered in the company where I work (I work in a geolocation services company)?
 
-#### Why this question is important?: ####
+#### Why this question is important? ####
 
 Predicting customer cancellations is crucial for a geolocation services company as it enables proactive retention strategies, reducing churn and associated costs. It allows for targeted resource allocation and service improvements, enhancing customer satisfaction and loyalty. Accurate predictions aid in better revenue forecasting and financial planning, mitigating risks. Moreover, it provides a competitive edge through personalized customer engagement and data-driven strategic decisions, fostering continuous improvement and innovation.
 
-### Data: ###
+### Data ###
 
 The data I am using is obtained directly from the CRM application that the company has, among that data we have information on complaints and claims, RMA and support cases of each customer.
 
