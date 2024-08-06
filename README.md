@@ -87,6 +87,8 @@ The dataset has some imbalance but it is possible to correct it later with overs
 
 ![](images/fig2.png)
 
+![](images/fig3.png)
+
 Some features(SLAPercentageMean, TicketsClosedCount, SLAPercentageTotal, SLATimeUsedMean, RMAUnitsCount, NonCompliantSLACount ) with a correlation = 1 were removed
 
 ChurnPerc is removed as it is a target value as well, it would only be used in case of regression and not classification.
